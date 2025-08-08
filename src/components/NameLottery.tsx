@@ -103,7 +103,7 @@ export function NameLottery() {
       </CardHeader>
       <CardContent className="space-y-6">
         {/* Input Tabs */}
-        <Tabs defaultValue="single" className="w-full">
+        <Tabs defaultValue="bulk" className="w-full">
           <TabsList className="grid w-full grid-cols-2">
             <TabsTrigger value="bulk">Bulk Input</TabsTrigger>
             <TabsTrigger value="single">Single Name</TabsTrigger>
